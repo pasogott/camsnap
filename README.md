@@ -100,7 +100,7 @@ camsnap discover --info
 camsnap doctor --probe
 ```
 
-`discover --info` attempts ONVIF device-information requests and uses saved credentials for matching hosts. `doctor --probe` classifies authentication, network, local-device, and macOS Camera permission failures.
+`discover --info` attempts ONVIF device-information requests after discovery finishes and uses saved credentials for matching hosts. `--timeout` applies separately to discovery and to each device-information request. Failed requests retain the discovered camera listing and show a recovery hint. `doctor --probe` classifies authentication, network, local-device, and macOS Camera permission failures.
 
 ## Camera sources
 

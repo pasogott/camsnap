@@ -2,6 +2,8 @@
 
 ## 0.6.2 - Unreleased
 
+- `discover --info` asks for device information with a fresh timeout after discovery finishes, and prints the failure with recovery guidance instead of hiding it. Thanks @SebTardif.
+
 ## 0.6.1 - 2026-10-20
 
 **Highlights:** Fix certificate validation vulnerability GO-2026-6809 in release binaries.
